@@ -1,0 +1,212 @@
+*{
+    max-width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Roboto,Helvetica,sans-serif;
+    }
+    
+    body{
+        background: url(img/back.jpg);
+        background-repeat: no-repeat;
+       background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+        margin:0; 
+    }
+
+    main{
+        text-align: right;
+        margin-bottom: 40px;
+        display: flex;
+        height: 100%;
+       
+    }
+    
+
+    .continer{
+        padding:60px 120px ;
+        text-align:center;
+        width: 50%;
+       
+        background: white;
+    }
+
+    .form{
+       justify-content: center;
+        display: flex;
+        align-items:center;
+        width: 50%;
+
+    }
+
+
+
+
+.col input{
+    width:100%;
+    padding:14px;
+}
+.col label{
+    display:block;
+    text-align:left;
+    margin:6px 0;
+    font-size:1.em;
+}
+.box{
+    text-align:left;
+    display:flex;
+    padding:0;
+    align-items:center;
+    margin-top:6px ;
+}
+
+
+.box input{
+     margin-left:-1px;
+    width:30px;
+    height:34px;
+}
+
+.box label{
+     display:flex;
+  margin:11px 0;
+  font-size: small;
+  margin-left:11px;
+}
+
+.but button{
+    margin-top:12px ;
+    width: 100%;
+    padding:14px;
+    background:#006ac3;
+    border:none;
+    color:white;
+    font-size: 1em;
+    
+}
+
+a {
+    display:block;
+    text-align:left;
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 0.9em;
+   
+    }
+
+.a a{
+    margin:16px 0;
+}
+
+.s {
+text-align: left;
+    margin:40px 0;
+}
+
+.s label{
+   font-weight: bold;
+   font-size:1.1em;
+    color:#000000cc;
+}
+
+
+.b a {
+    margin:14px 0;
+}
+
+.c a {
+    margin:40px 0;
+}
+
+.p{
+    text-align: left;
+    
+}
+.p p{
+    font-size: 0.92em;
+    
+}
+
+.logo{
+    color:white;
+    text-align:center;
+    
+}
+
+
+.logo img{
+    justify-items: center;
+  
+}
+
+.br{
+    background:#0000000f;
+    padding: 1px;
+    
+}
+
+.tittle{
+    text-align: left;
+}
+.mobil{
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+      
+    
+   
+    body{
+        background:none;
+        margin:0;
+    }
+ .continer{
+     margin:10px;
+     width:100%;
+     padding:22px;
+     }
+    .form {
+       display:none;
+    }
+    .mobil{
+        display: block;
+    }
+
+
+
+
+
+ }
+
+@media screen and (max-width: 600px) {
+      
+    .continer{
+     margin:10px;
+     width:100%;
+     padding:22px;
+     }
+   
+   
+    .form {
+       display:none;
+    }
+    .mobil{
+        display: block;
+        
+        
+       
+    }
+    .mobil img{
+       width:24px;
+        
+    }
+    .m{
+        margin-top:120px; 
+    }
+
+
+
+
+
+ }
